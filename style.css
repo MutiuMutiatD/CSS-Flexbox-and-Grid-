@@ -1,0 +1,116 @@
+*{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+main{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px; 
+}
+h3{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-weight: bold;
+    font-size: large;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+.firstbox{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 100%;
+   border-radius: 10px 0px 0px 10px;
+}
+.secondbox{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 100%;
+}
+.thirdbox{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 100%;
+    border-radius: 0px 10px  10px 0px;
+}
+.button-a{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border-radius: 20px;
+    padding: 8px;
+    transition: .4s;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button-a:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 95%);
+}
+.button-b{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    padding: 8px;
+    transition: .4s;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button-b:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 95%);
+    
+}
+.button-c{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-radius: 20px;
+    padding: 8px;
+    transition: .4s;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button-c:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 95%);
+}
+@media screen and (min-width: 1440px) {
+    main{
+        display: flex;
+        flex-direction: row;
+        width: 1440px;
+    }
+}
+@media screen and (max-width: 375px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+}
+
+
