@@ -17,6 +17,12 @@ main{
     padding-top: 20px;
     padding-bottom: 50px; 
 }
+h1{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+}
 h3{
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
